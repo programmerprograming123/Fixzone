@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIXZONE | PC & Phone Repair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    ```
+    <header>
+        <nav>
+            <div class="logo">FIX<span>ZONE</span></div>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#prices">Prices</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="small-title">FAST. RELIABLE. PROFESSIONAL.</p>
+
+                <h1>
+                    WE FIX<br>
+                    <span>YOUR TECH.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Professional phone, laptop and PC repairs with fast service and reliable results.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#repair" class="btn primary">REQUEST A REPAIR</a>
+                    <a href="#services" class="btn secondary">OUR SERVICES</a>
+                </div>
+            </div>
+
+            <div class="hero-tech">
+                <div class="tech-circle">⚙️</div>
+                <div class="tech-item item-one">📱</div>
+                <div class="tech-item item-two">💻</div>
+                <div class="tech-item item-three">🔧</div>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="section-title">
+                <p>WHAT WE DO</p>
+                <h2>OUR <span>SERVICES</span></h2>
+            </div>
+
+            <div class="service-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>PHONE REPAIR</h3>
+                    <p>Screen, battery, charging port and software repairs.</p>
+                    <a href="#repair">GET HELP →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>LAPTOP REPAIR</h3>
+                    <p>Hardware upgrades, screen repairs and system fixes.</p>
+                    <a href="#repair">GET HELP →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🖥️</div>
+                    <h3>PC REPAIR</h3>
+                    <p>PC cleaning, upgrades, troubleshooting and repairs.</p>
+                    <a href="#repair">GET HELP →</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>SOFTWARE</h3>
+                    <p>Windows installation, drivers, optimization and setup.</p>
+                    <a href="#repair">GET HELP →</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section dark-section" id="prices">
+            <div class="section-title">
+                <p>SIMPLE PRICING</p>
+                <h2>STARTING <span>PRICES</span></h2>
+            </div>
+
+            <div class="price-grid">
+
+                <div class="price-card">
+                    <div class="price-icon">📱</div>
+                    <h3>SCREEN REPLACEMENT</h3>
+                    <p>Phone screen replacement</p>
+                    <strong>FROM 500 EGP</strong>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-icon">🔋</div>
+                    <h3>BATTERY REPLACEMENT</h3>
+                    <p>Battery replacement service</p>
+                    <strong>FROM 300 EGP</strong>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-icon">💻</div>
+                    <h3>WINDOWS INSTALLATION</h3>
+                    <p>Fresh Windows installation</p>
+                    <strong>FROM 200 EGP</strong>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-icon">🧹</div>
+                    <h3>PC CLEANING</h3>
+                    <p>Deep cleaning and maintenance</p>
+                    <strong>FROM 250 EGP</strong>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-icon">🔧</div>
+                    <h3>LAPTOP REPAIR</h3>
+                    <p>Hardware troubleshooting</p>
+                    <strong>FROM 350 EGP</strong>
+                </div>
+
+                <div class="price-card">
+                    <div class="price-icon">🚀</div>
+                    <h3>PC UPGRADE</h3>
+                    <p>RAM, SSD and component upgrades</p>
+                    <strong>FROM 200 EGP</strong>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="repair-section" id="repair">
+            <div class="repair-container">
+
+                <div class="repair-info">
+                    <p class="small-title">NEED A REPAIR?</p>
+                    <h2>LET'S FIX<br><span>YOUR DEVICE.</span></h2>
+
+                    <p>
+                        Tell us what's wrong with your device and our team will get back to you.
+                    </p>
+
+                    <div class="repair-points">
+                        <div>✓ Fast diagnosis</div>
+                        <div>✓ Professional technicians</div>
+                        <div>✓ Quality parts</div>
+                        <div>✓ Clear pricing</div>
+                    </div>
+                </div>
+
+                <form id="repairForm">
+
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Phone Number</label>
+                        <input type="tel" id="phone" placeholder="010 1234 5678" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Device</label>
+                        <select id="device" required>
+                        <option value="">Select device</option>
+                        <option>iPhone</option>
+                        <option>Android Phone</option>
+                        <option>Laptop</option>
+                        <option>Desktop PC</option>
+                        <option>Tablet</option>
+                        <option>Other</option>
+                    </select>
+                    </div>
+
+                    <div class="input-group">
+                        <label>What's wrong?</label>
+                        <textarea id="problem" placeholder="Describe the problem..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn primary">SEND REPAIR REQUEST</button>
+
+                    <p id="formMessage"></p>
+
+                </form>
+
+            </div>
+        </section>
+
+        <section class="section" id="reviews">
+            <div class="section-title">
+                <p>WHAT CUSTOMERS SAY</p>
+                <h2>CUSTOMER <span>REVIEWS</span></h2>
+            </div>
+
+            <div class="review-grid">
+
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"Fixed my laptop in one day. Great service and fair price."</p>
+                    <strong>Ahmed M.</strong>
+                </div>
+
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"My phone screen looks brand new. Very professional."</p>
+                    <strong>Omar K.</strong>
+                </div>
+
+                <div class="review">
+                    <div class="stars">★★★★★</div>
+                    <p>"They cleaned and upgraded my PC. It runs much better now."</p>
+                    <strong>Youssef A.</strong>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+
+            <div class="contact-content">
+
+                <p class="small-title">COME VISIT US</p>
+
+                <h2>YOUR TECH IS<br><span>IN GOOD HANDS.</span></h2>
+
+                <div class="contact-info">
+
+                    <div>
+                        <strong>📍 LOCATION</strong>
+                        <p>New Cairo, Egypt</p>
+                    </div>
+
+                    <div>
+                        <strong>📞 PHONE</strong>
+                        <p>010 1234 5678</p>
+                    </div>
+
+                    <div>
+                        <strong>🕐 HOURS</strong>
+                        <p>10 AM — 10 PM</p>
+                    </div>
+
+                </div>
+
+                <a href="#" class="btn primary">CONTACT US</a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 FIXZONE. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
